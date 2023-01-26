@@ -7,6 +7,7 @@ app.use(cors());
 
 app.get("/", (req, res) => {
   console.log(req.query);
+  res.status(200).send(JSON.stringify("제출 완료!"));
 });
 
 app.listen(PORT, () => {
