@@ -8,7 +8,7 @@ app.use(cors());
 app.get("/", (req, res) => {
   try {
     console.log(req.query);
-    res.status(200).send(JSON.stringify("제출 완료!!"));
+    res.status(200).send(JSON.stringify("제출 완료!!!!"));
   } catch (err) {
     console.log(err);
   }
